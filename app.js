@@ -9,3 +9,11 @@ openBtn.addEventListener('click', () => {
 closeBtn.addEventListener('click', () => {
     modalContainer.style.display = 'none'
 })
+
+//close the modal by clicking anywhere on the window
+
+// window.addEventListener('click', (e) => {
+//     if ((e).target === modalContainer) {
+//         modalContainer.style.display = 'none';
+//     }
+// })
